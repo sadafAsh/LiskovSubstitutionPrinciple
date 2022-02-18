@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac2c2e5-d254-481a-8a26-6ec2d97d5e47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Cycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDeviceWithEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDeviceWithoutEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/soj/principle/liskov/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/soj/principle/liskov/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/javaJourney.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/javaJourney.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +37,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25HLVB5y22ho2p7QOVceFXgaK1N" />
@@ -36,8 +55,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sadaf\LiskovSubstitutionPrinciple\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -82,24 +107,133 @@
       <option name="presentableId" value="Default" />
       <updated>1645179086670</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1645179641645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645179641645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1325" height="176" key="GridCell.Tab.0.bottom" timestamp="1645179628609">
+    <state x="489" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1645193631473">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="176" key="GridCell.Tab.0.bottom/0.0.1368.720@0.0.1368.720" timestamp="1645179628609" />
-    <state width="1325" height="176" key="GridCell.Tab.0.center" timestamp="1645179628609">
+    <state x="489" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1368.720@0.0.1368.720" timestamp="1645193631473" />
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1645179641374">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="176" key="GridCell.Tab.0.center/0.0.1368.720@0.0.1368.720" timestamp="1645179628609" />
-    <state width="1325" height="176" key="GridCell.Tab.0.left" timestamp="1645179628609">
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1368.720@0.0.1368.720" timestamp="1645179641374" />
+    <state width="400" height="438" key="DebuggerActiveHint" timestamp="1645191436830">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="176" key="GridCell.Tab.0.left/0.0.1368.720@0.0.1368.720" timestamp="1645179628609" />
-    <state width="1325" height="176" key="GridCell.Tab.0.right" timestamp="1645179628609">
+    <state width="400" height="438" key="DebuggerActiveHint/0.0.1368.720@0.0.1368.720" timestamp="1645191436830" />
+    <state width="1325" height="176" key="GridCell.Tab.0.bottom" timestamp="1645195702241">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="176" key="GridCell.Tab.0.right/0.0.1368.720@0.0.1368.720" timestamp="1645179628609" />
+    <state width="1325" height="176" key="GridCell.Tab.0.bottom/0.0.1368.720@0.0.1368.720" timestamp="1645195702241" />
+    <state width="1325" height="176" key="GridCell.Tab.0.center" timestamp="1645195702241">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="176" key="GridCell.Tab.0.center/0.0.1368.720@0.0.1368.720" timestamp="1645195702241" />
+    <state width="1325" height="176" key="GridCell.Tab.0.left" timestamp="1645195702241">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="176" key="GridCell.Tab.0.left/0.0.1368.720@0.0.1368.720" timestamp="1645195702241" />
+    <state width="1325" height="176" key="GridCell.Tab.0.right" timestamp="1645195702241">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="176" key="GridCell.Tab.0.right/0.0.1368.720@0.0.1368.720" timestamp="1645195702241" />
+    <state width="1325" height="220" key="GridCell.Tab.1.bottom" timestamp="1645193391797">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="220" key="GridCell.Tab.1.bottom/0.0.1368.720@0.0.1368.720" timestamp="1645193391797" />
+    <state width="1325" height="220" key="GridCell.Tab.1.center" timestamp="1645193391797">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="220" key="GridCell.Tab.1.center/0.0.1368.720@0.0.1368.720" timestamp="1645193391797" />
+    <state width="1325" height="220" key="GridCell.Tab.1.left" timestamp="1645193391797">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="220" key="GridCell.Tab.1.left/0.0.1368.720@0.0.1368.720" timestamp="1645193391797" />
+    <state width="1325" height="220" key="GridCell.Tab.1.right" timestamp="1645193391797">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="220" key="GridCell.Tab.1.right/0.0.1368.720@0.0.1368.720" timestamp="1645193391797" />
+    <state x="276" y="95" key="Vcs.Push.Dialog.v2" timestamp="1645179649410">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state x="276" y="95" key="Vcs.Push.Dialog.v2/0.0.1368.720@0.0.1368.720" timestamp="1645179649410" />
+    <state x="367" y="163" key="git4idea.merge.GitPullDialog" timestamp="1645179666631">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state x="367" y="163" key="git4idea.merge.GitPullDialog/0.0.1368.720@0.0.1368.720" timestamp="1645179666631" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDeviceWithoutEngine.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDeviceWithoutEngine.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Cycle.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDeviceWithEngine.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDeviceWithEngine.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Car.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDevice.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDevice.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDevice.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/TransportationDevice.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
