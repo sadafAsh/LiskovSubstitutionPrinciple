@@ -1,5 +1,5 @@
-DEBUG [main] 2022-02-18T15:50:16,810  (line ) HONDA
-DEBUG [main] 2022-02-18T15:50:16,814  (line ) 4.5
-DEBUG [main] 2022-02-18T15:50:16,814  (line ) Petro
-DEBUG [main] 2022-02-18T15:50:16,814  (line ) 60000
-DEBUG [main] 2022-02-18T15:50:16,814  (line ) There  is no engine in cycle.
+DEBUG [main] 2022-02-18T16:26:17,891  (line ) HONDA
+DEBUG [main] 2022-02-18T16:26:17,894  (line ) 4.5
+DEBUG [main] 2022-02-18T16:26:17,894  (line ) Petrol
+DEBUG [main] 2022-02-18T16:26:17,894  (line ) 110000
+DEBUG [main] 2022-02-18T16:26:17,894  (line ) There  is no engine in cycle.

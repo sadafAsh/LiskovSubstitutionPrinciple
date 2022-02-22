@@ -10,7 +10,7 @@ public class Main {
         Car car1=new Car(60000);
         car1.setName("HONDA");
         car1.setSpeed(4.5);
-        car1.setEngineType("Petro");
+        car1.setEngineType("Petrol");
         logger.debug(car1.getName());
         logger.debug(car1.getSpeed());
         logger.debug(car1.getEngineType());

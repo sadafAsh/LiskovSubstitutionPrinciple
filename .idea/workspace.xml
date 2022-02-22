@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac2c2e5-d254-481a-8a26-6ec2d97d5e47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/liskov/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/liskov/CycleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/liskov/TransportationDeviceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/liskov/TransportationDeviceWithEngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/liskov/TransportationDeviceWithoutEngineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/soj/principle/liskov/TransportationDeviceWithEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/soj/principle/liskov/TransportationDeviceWithEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/soj/principle/liskov/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/soj/principle/liskov/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/javaJourney.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/javaJourney.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,32 +107,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.LiskovSubstitutionPrinciple [sonarqube]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soj.principle.liskov.Main" />
+      <module name="LiskovSubstitutionPrinciple.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soj.principle.liskov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarTest.testToGetAPriceOfDiesel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.soj.principle.liskov.CarTest.testToGetAPriceOfDiesel&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CarTest.testToGetAPriceOfPetrol" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.soj.principle.liskov.CarTest.testToGetAPriceOfPetrol&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -214,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.LiskovSubstitutionPrinciple [sonarqube]" />
         <item itemvalue="Gradle.CarTest.testToGetAnEngineTypeAndPrice" />
         <item itemvalue="Gradle.CarTest.testToGetASamePrice" />
         <item itemvalue="Gradle.CarTest.testToGetAPriceOfDiesel" />
-        <item itemvalue="Gradle.CarTest.testToGetAPriceOfPetrol" />
       </list>
     </recent_temporary>
   </component>
@@ -280,13 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645196005247</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test commit">
+      <created>1645201318109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645201318109</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="TransportationDevice commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="TransportationDevice commit" />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="489" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1645193631473">
@@ -301,38 +296,38 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state width="400" height="438" key="DebuggerActiveHint/0.0.1368.720@0.0.1368.720" timestamp="1645191436830" />
-    <state width="1325" height="176" key="GridCell.Tab.0.bottom" timestamp="1645201244276">
+    <state width="1325" height="220" key="GridCell.Tab.0.bottom" timestamp="1645201744584">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="176" key="GridCell.Tab.0.bottom/0.0.1368.720@0.0.1368.720" timestamp="1645201244276" />
-    <state width="1325" height="176" key="GridCell.Tab.0.center" timestamp="1645201244276">
+    <state width="1325" height="220" key="GridCell.Tab.0.bottom/0.0.1368.720@0.0.1368.720" timestamp="1645201744584" />
+    <state width="1325" height="220" key="GridCell.Tab.0.center" timestamp="1645201744584">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="176" key="GridCell.Tab.0.center/0.0.1368.720@0.0.1368.720" timestamp="1645201244276" />
-    <state width="1325" height="176" key="GridCell.Tab.0.left" timestamp="1645201244276">
+    <state width="1325" height="220" key="GridCell.Tab.0.center/0.0.1368.720@0.0.1368.720" timestamp="1645201744584" />
+    <state width="1325" height="220" key="GridCell.Tab.0.left" timestamp="1645201744584">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="176" key="GridCell.Tab.0.left/0.0.1368.720@0.0.1368.720" timestamp="1645201244276" />
-    <state width="1325" height="176" key="GridCell.Tab.0.right" timestamp="1645201244276">
+    <state width="1325" height="220" key="GridCell.Tab.0.left/0.0.1368.720@0.0.1368.720" timestamp="1645201744584" />
+    <state width="1325" height="220" key="GridCell.Tab.0.right" timestamp="1645201744584">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="176" key="GridCell.Tab.0.right/0.0.1368.720@0.0.1368.720" timestamp="1645201244276" />
-    <state width="1325" height="220" key="GridCell.Tab.1.bottom" timestamp="1645199289563">
+    <state width="1325" height="220" key="GridCell.Tab.0.right/0.0.1368.720@0.0.1368.720" timestamp="1645201744584" />
+    <state width="1325" height="220" key="GridCell.Tab.1.bottom" timestamp="1645201744584">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="220" key="GridCell.Tab.1.bottom/0.0.1368.720@0.0.1368.720" timestamp="1645199289563" />
-    <state width="1325" height="220" key="GridCell.Tab.1.center" timestamp="1645199289563">
+    <state width="1325" height="220" key="GridCell.Tab.1.bottom/0.0.1368.720@0.0.1368.720" timestamp="1645201744584" />
+    <state width="1325" height="220" key="GridCell.Tab.1.center" timestamp="1645201744584">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="220" key="GridCell.Tab.1.center/0.0.1368.720@0.0.1368.720" timestamp="1645199289563" />
-    <state width="1325" height="220" key="GridCell.Tab.1.left" timestamp="1645199289563">
+    <state width="1325" height="220" key="GridCell.Tab.1.center/0.0.1368.720@0.0.1368.720" timestamp="1645201744584" />
+    <state width="1325" height="220" key="GridCell.Tab.1.left" timestamp="1645201744584">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="220" key="GridCell.Tab.1.left/0.0.1368.720@0.0.1368.720" timestamp="1645199289563" />
-    <state width="1325" height="220" key="GridCell.Tab.1.right" timestamp="1645199289563">
+    <state width="1325" height="220" key="GridCell.Tab.1.left/0.0.1368.720@0.0.1368.720" timestamp="1645201744584" />
+    <state width="1325" height="220" key="GridCell.Tab.1.right" timestamp="1645201744584">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="220" key="GridCell.Tab.1.right/0.0.1368.720@0.0.1368.720" timestamp="1645199289563" />
+    <state width="1325" height="220" key="GridCell.Tab.1.right/0.0.1368.720@0.0.1368.720" timestamp="1645201744584" />
     <state x="396" y="77" key="MultipleFileMergeDialog" timestamp="1645195983420">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
@@ -341,6 +336,10 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state x="276" y="95" key="Vcs.Push.Dialog.v2/0.0.1368.720@0.0.1368.720" timestamp="1645196015669" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1645214988360">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1645214988360" />
     <state x="455" y="92" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1645196286433">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
@@ -349,17 +348,17 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state x="367" y="163" key="git4idea.merge.GitPullDialog/0.0.1368.720@0.0.1368.720" timestamp="1645196032835" />
-    <state x="340" y="160" width="672" height="677" key="run.anything.popup" timestamp="1645201211704">
+    <state x="340" y="160" width="672" height="677" key="run.anything.popup" timestamp="1645201744565">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state x="340" y="160" width="672" height="677" key="run.anything.popup/0.0.1368.720@0.0.1368.720" timestamp="1645201211704" />
+    <state x="340" y="160" width="672" height="677" key="run.anything.popup/0.0.1368.720@0.0.1368.720" timestamp="1645201744565" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/liskov/Main.java</url>
-          <line>18</line>
+          <line>20</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
