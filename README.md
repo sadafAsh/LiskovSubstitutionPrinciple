@@ -4,15 +4,23 @@
 best known as SOLID principles.The object of superclass shall be replaceable with the object of its
 subclass without breaking the application.
          In this project, "TransportationDevice" class is the concrete class which has the attributes of 
-name and speed.There is two class "TransportationDeviceWithEngine" and "TransportationDeviceWithOutEngine"
-class extends the transportationDevice class and both has setEngine method.Now "Car" class extend 
-transportationDeviceWithEngine class which overrides the setEngine method and "Cycle" class extends
+name and speed. "TransportationDeviceWithEngine" and "TransportationDeviceWithOutEngine"
+classes extends the "TransportationDevice" class and both has setEngine method. "Car" class extend 
+"TransportationDeviceWithEngine" class which overrides the setEngine method and "Cycle" class extends
 TransportationDeviceWithoutEngine class which overrides the setEngine method.This is the method of Liskov
 Substitution Principle.
 
 JunitTest:
-        There is JUnit Test also present for all Liskov Substitution Principle and test coverage are 100%
-  successful by jacoco reports.
+  
+      The  Junit Test is done of all the entities in  "Liskov Substitution Principle" project and test coverage 
+is 100% successful in jacoco report.
+
+       
+  SONARQUBE :
+          In sonarqube,reliability ,security , securityReview and maintainability is A and 
+the code coverage is 100%. 
+
+
        
   SONARQUBE 
   
